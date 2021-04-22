@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Complaint</string>
+
+    <string name="complain_type">complain category option</string>
+    <string name="select_agency">Select an Agency</string>
+    <string name="client_comment">Comment below</string>
+    <string name="choice_to_public_or_agency_only"></string>
+    <string name="checkedtextview">Do you wish to publicise your situations</string>
+
+</resources>

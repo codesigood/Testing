@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/lblComplain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/complain_type" />
+    <Spinner
+        android:id="@+id/reasonSelect"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/lblComplain"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/lblAgency"
+        android:layout_below="@id/reasonSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_agency" />
+    <Spinner
+        android:id="@+id/agencySelect"
+
+        android:layout_below="@+id/lblAgency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/lblText"
+        android:layout_below="@+id/agencySelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/client_comment" />
+
+    <EditText
+        android:id="@+id/complaint"
+        android:layout_below="@+id/lblText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/lblcheck"
+        android:layout_below="@+id/complaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_to_public_or_agency_only" />
+    <CheckedTextView
+        android:id="@+id/checkPublic"
+        android:layout_below="@+id/lblcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkedtextview" />
+<B
+    android:id="@+id/submit"
+    android:layout_below="@id/checkPublic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submit"/>
+
+</RelativeLayout>

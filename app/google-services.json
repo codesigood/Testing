@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "434605860980",
+    "firebase_url": "https://atlast-3d8fb.firebaseio.com",
+    "project_id": "atlast-3d8fb",
+    "storage_bucket": "atlast-3d8fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434605860980:android:7ab2f3db980beb60784921",
+        "android_client_info": {
+          "package_name": "com.example.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434605860980-30r48ismhhgbsh6cp69e4q7vbt7nivrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTQnX3CfQsdWiW_0_yzFxF3JwSD9DSnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434605860980-30r48ismhhgbsh6cp69e4q7vbt7nivrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
